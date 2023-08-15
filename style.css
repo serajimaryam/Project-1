@@ -1,6 +1,6 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
 
 .container {
   background-repeat: no-repeat;
@@ -60,6 +60,7 @@ header {
   font-weight: 400;
   font-size: 36px;
   line-height:48.62px;
+  z-index: 99;
 }
 .menu {
   font-weight: 700;
@@ -143,6 +144,7 @@ header {
   color: #BCA5FF;
   border-top-right-radius: 25px ;
   border-bottom-right-radius: 25px;
+  z-index: 99;
   
 }
 
@@ -255,9 +257,7 @@ header {
   max-width: 80%;
 
 }
-.row1{
-  
-}
+
 .row1 .language button{
   padding: 2px 25px;
   height: 30px;
