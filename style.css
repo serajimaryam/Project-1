@@ -1,6 +1,6 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
 
 .container {
   background-repeat: no-repeat;
@@ -255,9 +255,7 @@ header {
   max-width: 80%;
 
 }
-.row1{
-  
-}
+
 .row1 .language button{
   padding: 2px 25px;
   height: 30px;
