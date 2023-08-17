@@ -24,7 +24,8 @@
   top: 0;
   opacity: 0.55;
   background-size: cover;
-  /* border:2px solid red; */
+  /* border:10px solid red; */
+  z-index: 90;
 }
 #gradiant{
   background-image: linear-gradient(180deg,transparent 0 30%,#000 70% 100%);
@@ -61,7 +62,7 @@ header {
   font-weight: 400;
   font-size: 36px;
   line-height:48.62px;
- 
+  z-index: 99;
 }
 .menu {
   font-weight: 700;
@@ -71,14 +72,12 @@ header {
   justify-content: space-between;
   width: 85%;
   list-style-type: none;
- 
 }
 .Right-Menu {
   width: 50%;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  z-index: 99;
   
 }
 .icon {
@@ -412,3 +411,111 @@ header {
     padding-bottom: 25px;
 
    }
+
+/* ---------------------------------------piko-page--------------------------------- */
+.page2 {
+
+  height: 850px;
+  
+}
+.trailer{
+  display: flex;
+  gap: 100px;
+  background-color: #000;
+  height: 500px;
+  width: 100%;
+}
+.movie-description{
+  margin-top: 10%;
+}
+.movie-description>img  {
+
+  margin-left: -30px;
+}
+.movie-description .buttons .download{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding: 5px;
+  background-color: #5C5C5C;
+ }
+.movie-description h1{
+  color: #FFFFFF
+}
+.movie-description .awards{
+  width: 80%;
+}
+.films{
+  margin: 0 auto;  
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  /* border: 1px solid rgb(0, 255, 157); */
+  
+}
+ .first-film{
+  position: relative;
+  /* border: 1px solid red; */
+   padding-right: 20px;
+   z-index: 99; 
+   
+
+}
+ .first-film button {
+  position: absolute;
+  bottom: 70%;
+  left: 75%;
+  width: 40px;
+  height: 40px;
+  color: #5436A9;
+  border: 1px solid white;
+  border-radius: 50%;
+  background-color: white;
+
+
+}
+
+.films .cast-film{
+  /* width: 100%; */
+  width: 100%;
+  /* border: 1px solid red; */
+  z-index: 99;
+}
+
+.page2-film-header{
+  display: flex;
+  margin-top: 200px;
+  margin-left: 100px;
+  gap: 370px;
+  text-align: center;
+  /* background-color: black; */
+  width: 80%;
+ 
+}
+.page2-film-header h3{
+  color: white;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  z-index: 95;
+}
+.cast-film #p1{
+  font-family: Montserrat;
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 0;
+  /* border: 2px solid pink; */
+  
+}
+.cast-film #p2{
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  color: #A9A9A9;
+  margin-top: 0;
+  /* border: 2px solid rgb(80, 19, 29); */
+
+}
+
